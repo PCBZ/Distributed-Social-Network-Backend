@@ -191,7 +191,7 @@ variable "timeline_service_fanout_strategy" {
 variable "timeline_service_celebrity_threshold" {
   description = "Follower count threshold for hybrid strategy"
   type        = number
-  default     = 50000
+  default     = 1000
 }
 
 variable "timeline_service_enable_pitr" {
@@ -259,7 +259,7 @@ variable "post_service_post_strategy" {
 variable "post_service_hybrid_threshold" {
   description = "Threshold for hybrid strategy"
   type        = number
-  default     = 10000
+  default     = 1000
 }
 
 variable "post_service_min_capacity" {
