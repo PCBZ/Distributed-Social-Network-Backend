@@ -130,7 +130,7 @@ variable "user_service_request_count_target_value" {
 variable "web_service_ecs_count" {
   description = "Number of ECS tasks for web service"
   type        = number
-  default     = 2
+  default     = 3
 }
 
 variable "web_service_user_service_url" {
@@ -179,7 +179,7 @@ variable "web_service_request_count_target_value" {
 variable "timeline_service_ecs_count" {
   description = "Number of ECS tasks for timeline service"
   type        = number
-  default     = 1000
+  default     = 3
 }
 
 variable "timeline_service_fanout_strategy" {
@@ -189,9 +189,9 @@ variable "timeline_service_fanout_strategy" {
 }
 
 variable "timeline_service_celebrity_threshold" {
-  description = "Follower count threshold for hybrid strategy"
+  description = "Follower count threshold for hybrid strategy (P99 ~1200 for 1500 users)"
   type        = number
-  default     = 50000
+  default     = 1200
 }
 
 variable "timeline_service_enable_pitr" {
@@ -257,9 +257,9 @@ variable "post_service_post_strategy" {
 
 
 variable "post_service_hybrid_threshold" {
-  description = "Threshold for hybrid strategy"
+  description = "Threshold for hybrid strategy (must match timeline_service_celebrity_threshold)"
   type        = number
-  default     = 10000
+  default     = 1200
 }
 
 variable "post_service_min_capacity" {

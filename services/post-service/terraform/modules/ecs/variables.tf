@@ -63,7 +63,7 @@ variable "cpu" {
 
 variable "memory" {
   type        = string
-  default     = "512"
+  default     = "1024"
   description = "Memory (MiB)"
 }
 
