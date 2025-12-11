@@ -86,8 +86,8 @@ graph TB
 | Service | Purpose | Data Store | Communication |
 |---------|---------|------------|---------------|
 | **User Service** | Authentication, user profiles, account management | PostgreSQL RDS | REST + gRPC |
-| **Post Service** | Content creation, storage, retrieval | PostgreSQL RDS | REST + SQS |
-| **Social Graph Service** | Follow/unfollow relationships, social connections | AWS Neptune (Graph DB) | REST + gRPC |
+| **Post Service** | Content creation, storage, retrieval | DynamoDB | REST + SQS |
+| **Social Graph Service** | Follow/unfollow relationships, social connections | DynamoDB | REST + gRPC |
 | **Timeline Service** | Feed generation, timeline aggregation | DynamoDB | REST |
 | **Web Service** | API Gateway, request routing, load balancing | N/A | REST |
 
