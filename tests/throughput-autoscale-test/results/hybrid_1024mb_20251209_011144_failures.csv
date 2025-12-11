@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+POST,POST /api/posts,CatchResponseError('Got status code 503'),30401

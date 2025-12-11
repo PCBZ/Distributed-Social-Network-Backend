@@ -1,0 +1,6 @@
+# Requirements for throughput and autoscale testing
+locust>=2.15.0
+boto3>=1.34.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+requests>=2.31.0

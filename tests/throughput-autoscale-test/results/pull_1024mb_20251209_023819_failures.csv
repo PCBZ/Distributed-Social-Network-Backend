@@ -1,0 +1,6 @@
+Method,Name,Error,Occurrences
+POST,POST /api/posts,CatchResponseError('Got status code 0'),1544
+POST,POST /api/posts,CatchResponseError('Got status code 500'),2459
+GET,GET /api/timeline/:user_id,CatchResponseError('Got status code 0'),6778
+POST,POST /api/posts,CatchResponseError('Got status code 503'),24247
+GET,GET /api/timeline/:user_id,CatchResponseError('Got status code 500'),63613

@@ -58,7 +58,7 @@ variable "container_port" {
 
 variable "ecs_count" {
   type    = number
-  default = 1
+  default = 2
 }
 
 # IAM Role for ECS Task Execution (Innovation Sandbox with ISBStudent tag)
