@@ -1,8 +1,9 @@
 # Benchmark/Locust HTML reports
 tests/timeline_retrieval/Report_*.html linguist-generated=true
+tests/**/*.html linguist-generated=true
 
 # Generated protobuf Go code
-proto/*.pb.go linguist-generated=true
+proto/**/*.pb.go linguist-generated=true
 proto/**/*_grpc.pb.go linguist-generated=true
 
 # Binary artifact
