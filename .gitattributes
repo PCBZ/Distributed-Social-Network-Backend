@@ -1,0 +1,12 @@
+# Benchmark/Locust HTML reports
+tests/timeline_retrieval/Report_*.html linguist-generated=true
+
+# Generated protobuf Go code
+proto/*.pb.go linguist-generated=true
+proto/**/*_grpc.pb.go linguist-generated=true
+
+# Binary artifact
+services/timeline-service/timeline-service linguist-generated=true
+
+# Test result images
+tests/**/*.png linguist-generated=true
