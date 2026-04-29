@@ -11,6 +11,7 @@
 # Go compiled binaries (no extension) - be specific to avoid ignoring folders
 /services/user-service/user-service
 /web-service/web-service
+/services/timeline-service/timeline-service
 
 # Test binary, built with `go test -c`
 *.test
